@@ -26,7 +26,6 @@
 ## Требования к окружению
 
 - **Python** версии 3.8 и выше  
-- Операционная система: Linux (рекомендуется WSL для Windows), macOS, Windows  
 - Для Linux: рекомендуется использовать WSL (Windows Subsystem for Linux)  
 - Установленный браузер: **Google Chrome** или **Chromium**  
 
@@ -38,7 +37,7 @@
 
 ```makefile
 	make install         - Установить зависимости и выполнить первоначальные настройки
-    make run-sort        - Запустить первое задание
+    	make run-sort        - Запустить первое задание
 	make test-selenium   - Запустить тесты на Selenium
 	make lint            - Проверить стиль кода
 	make format          - Автоформатировать код
